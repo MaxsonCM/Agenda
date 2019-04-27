@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Agenda</string>
+    <string name="search_title">Search</string>
+    <string name="search_hint">Ex: Name, Phone or E-mail</string>
+    <string name="hintName">Name</string>
+    <string name="hintEmail" translatable="false">E-mail</string>
+    <string name="hintPhone">Phone</string>
+    <string name="btSave">Save</string>
+    <string name="btDelete">Delete</string>
+    <string name="btYes">Yes</string>
+    <string name="btNo">No</string>
+    <string name="dialogTitleDelete">Warning</string>
+    <string name="dialogMessageDelete">Do you want to delete the contact ?</string>
+
+</resources>

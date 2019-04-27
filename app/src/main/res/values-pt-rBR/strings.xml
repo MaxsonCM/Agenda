@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Agenda</string>
+    <string name="search_title">Pesquisar</string>
+    <string name="search_hint">Ex: Nome, Tel. ou E-mail</string>
+    <string name="hintName">Nome</string>
+    <string name="hintPhone">Telefone</string>
+    <string name="btSave">Salvar</string>
+    <string name="btDelete">Excluir</string>
+    <string name="btYes">Sim</string>
+    <string name="btNo">Não</string>
+    <string name="dialogTitleDelete">Aviso</string>
+    <string name="dialogMessageDelete">Você deseja excluir o contato ?</string>
+</resources>
