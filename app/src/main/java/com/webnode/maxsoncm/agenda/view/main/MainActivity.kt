@@ -41,6 +41,7 @@ class MainActivity : AppCompatActivity() {
         if (Intent.ACTION_SEARCH != intent.action) {
             mainViewModel.buscarTodos()
         }
+
         fab.setOnClickListener {
             startActivityForResult( Intent(this,
                 FormularioActivity::class.java ), 1 )

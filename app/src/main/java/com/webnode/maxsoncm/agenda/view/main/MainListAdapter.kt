@@ -13,8 +13,8 @@ import kotlinx.android.synthetic.main.contato_item.view.*
 class MainListAdapter(
     val context: Context,
     val notas: List<Contato>,
-    val clickLista: (Contato) -> Unit/*,
-    val clickLixo: (String) -> Unit*/
+    val clickLista: (Contato) -> Unit//,
+    //val clickLixo: (String) -> Unit
 ) :
     RecyclerView.Adapter<MainListAdapter.ContatoViewHolder>(){
 
@@ -32,7 +32,7 @@ class MainListAdapter(
     override fun onBindViewHolder(p0: ContatoViewHolder, position: Int) {
         val contato = notas[position]
         p0.bindView(contato, clickLista)
-        /*p0.excluir(contato.age_id, clickLixo)*/
+        //p0.excluir(contato.age_id, clickLixo)
     }
 
     class ContatoViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView){
@@ -44,9 +44,9 @@ class MainListAdapter(
 
             setOnClickListener{ clickLista(contato)}
         }
-        /*fun excluir( age_id: String, clickLixo: (String) -> Unit){
-            itemView.ivExcluir.setOnClickListener{ clickLixo(age_id) }
-        }*/
+        //fun excluir( age_id: String, clickLixo: (String) -> Unit){
+        //   itemView.ivExcluir.setOnClickListener{ clickLixo(age_id) }
+        //}
     }
 
 }
